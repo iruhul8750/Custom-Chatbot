@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagiya School Chatbot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__logo-wrapper">
+                    <div class="chatbox__logo-img-container">
+                        <img src="/static/images/school-logo.png" alt="Bagiya School Logo" class="chatbox__logo-img">
+                    </div>
+                    <div class="chatbox__logo-text">
+                        <span class="chatbox__logo-title">Bagiya School</span>
+                        <span class="chatbox__logo-subtitle">Virtual Assistant</span>
+                    </div>
+                </div>
+<!--                <button class="chatbox__close-btn">×</button>-->
+            </div>
+            <div class="chatbox__messages"></div>
+            <div class="quick-questions">
+                <div class="quick-question" data-question="Tell me about the school?">About school</div>
+<!--                <div class="quick-question" data-question="What are your school hours?">School hours</div>-->
+                <div class="quick-question" data-question="How to apply for admission?">Admission process</div>
+                <div class="quick-question" data-question="What is the fee structure?">Fee details</div>
+<!--                <div class="quick-question" data-question="What extracurricular activities do you offer?">Activities</div>-->
+                <div class="quick-question" data-question="where is the school located?">Location</div>
+
+            </div>
+            <div class="chatbox__footer">
+                <div class="chatbox__input-container">
+                    <div class="emoji-picker-container">
+                        <button class="emoji-toggle-btn"><i class="far fa-smile"></i></button>
+                        <div class="emoji-picker">
+                            <div class="emoji-category">Frequently Used</div>
+                            <div class="emoji-row">
+                                <span class="emoji-option">😊</span>
+                                <span class="emoji-option">👍</span>
+                                <span class="emoji-option">❤️</span>
+                                <span class="emoji-option">😄</span>
+                                <span class="emoji-option">🙏</span>
+                            </div>
+                            <div class="emoji-category">People</div>
+                            <div class="emoji-row">
+                                <span class="emoji-option">👋</span>
+                                <span class="emoji-option">👏</span>
+                                <span class="emoji-option">🙌</span>
+                                <span class="emoji-option">🤗</span>
+                                <span class="emoji-option">🤔</span>
+                            </div>
+                            <div class="emoji-category">Objects</div>
+                            <div class="emoji-row">
+                                <span class="emoji-option">📚</span>
+                                <span class="emoji-option">✏️</span>
+                                <span class="emoji-option">🎒</span>
+                                <span class="emoji-option">🏫</span>
+                                <span class="emoji-option">🏆</span>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Type your message here..." id="chat-input">
+                    <button class="chatbox__send--footer send__button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button class="chatbox__toggle-btn">
+                <i class="fas fa-comment-dots"></i>
+                <span class="chatbox__badge">1</span>
+            </button>
+        </div>
+    </div>
+</div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
+
+

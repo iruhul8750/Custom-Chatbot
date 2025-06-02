@@ -1,0 +1,14 @@
+bagiya-chatbot/
+├── app.py                  # Flask application entry point
+├── model.py                # Integrated BERT + fallback model (core AI)
+├── intents.json            # Training data with patterns/responses
+├── data.pth          # Fine-tuned BERT weights (optional)
+├── requirements.txt        # Python dependencies
+├── static/
+│   ├── css/
+│   │   └── style.css       # Chatbot styles
+│   └── js/
+│       └── app.js          # Frontend interaction logic
+├── templates/
+│   └── index.html          # Chatbot HTML interface
+└── README.md               # Project documentation

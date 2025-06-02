@@ -1,0 +1,478 @@
+{
+  "intents": [
+    {
+      "category": "greeting",
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How's it going?",
+        "Hi there, are you there?",
+        "Hello bot, how are you doing?",
+        "Is anyone there?",
+        "Hey! How's everything?",
+        "How are you?",
+        "What's up?",
+        "Howdy",
+        "Greetings",
+        "Good to see you!"
+      ],
+      "responses": [
+        "Hey there! How can I assist you?",
+        "Hello! Thanks for reaching out. How can I help today?",
+        "Hi there! What can I do for you?",
+        "Hello! I'm here to help with any information you need.",
+        "Hi! What would you like to know today?"
+      ]
+    },
+    {
+      "category": "farewell",
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Take care",
+        "I'm leaving now",
+        "Talk to you soon",
+        "Later",
+        "Gotta go",
+        "Thanks, goodbye!",
+        "Adios",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Take care, see you soon!",
+        "See you later! Don't hesitate to come back if you have more questions.",
+        "Bye for now! Let me know if you need anything else.",
+        "Goodbye! Looking forward to our next chat!"
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "school_name",
+      "patterns": [
+        "What’s the name of your school?",
+        "Can you tell me your school's name?",
+        "What's the institution called?",
+        "What's the school name?",
+        "What do you call this school?",
+        "Could you tell me the name of the school?",
+        "I’d like to know the name of the school",
+        "Who are you associated with?"
+      ],
+      "responses": [
+        "Our school name is Bagiya School (Sanshil Foundation).",
+        "The institution is called Bagiya School, under the Sanshil Foundation.",
+        "We are known as Bagiya School, part of the Sanshil Foundation."
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "school_history",
+      "patterns": [
+        "Who is the principal?",
+        "When was the school started?",
+        "Can you share some history of the school?",
+        "What’s the story behind the school?",
+        "Who started this school?",
+        "Who is the principal of the school?"
+      ],
+      "responses": [
+        "Our school was founded in 2009 by Shilpa Sonal, who is both the founder and the principal.",
+        "The school was established in 2009 by our founder and principal, Shilpa Sonal, with a vision to make quality education accessible.",
+        "Bagiya School was started in 2009 by Shilpa Sonal, who is still serving as the principal and continues to guide the school’s mission."
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "founder_director",
+      "patterns": [
+        "Who is the founder director of the school?",
+        "Who is the director of the school?",
+        "Who founded the school?",
+        "Who is the founder of the school?"
+      ],
+      "responses": [
+        "SHILPA:\nFounder Director - Sanshil Foundation For Welfare. Shilpa heads The Sanshil Foundation, focusing on education and vocational training for underprivileged children and sustainable practices for livelihood.\nASHISH: Founder Director at Sanshil Foundation and ORKASH. Ashish is a hi-tech business leader, advisor, and decorated combat veteran (Vir Chakra). His expertise includes homeland security, safe cities, and cyber threats."
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "school_description",
+      "patterns": [
+        "Tell me about the school",
+        "What is Bagiya School?",
+        "Can you share some details about the school?",
+        "What is the vision of the school?",
+        "Tell me the mission of the school",
+        "What is Project BAGIYA?",
+        "What does Bagiya School do?"
+      ],
+      "responses": [
+        "BAGIYA – A garden of learning, created to change lives, is a remedial center providing bridge education for children from nearby slum areas. Our curriculum includes NCERT, CBSE, and NIOS.",
+        "Project BAGIYA has over 350 students enrolled. Since 2009, we’ve helped over 1,000 students transition to mainstream schools and further education.",
+        "In addition to academics, BAGIYA promotes sports, art, and theater, fostering holistic development and academic learning."
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "school_website",
+      "patterns": [
+        "What is the website of the school?",
+        "Can you share the school's website?",
+        "Where can I find more information about the school online?",
+        "What’s the official website of your school?",
+        "Do you have a website?",
+        "I need the school’s website link",
+        "Is there an online site for the school?"
+      ],
+      "responses": [
+        "You can find more information on our official website: [Bagiya School Website](https://sanshil.com/)",
+        "Visit our school website for more details: [https://sanshil.com/](https://sanshil.com/)",
+        "Our official website is: [https://sanshil.com/](https://sanshil.com/)",
+        "Learn more on our <a href='https://sanshil.com/'>website</a>."
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "school_location",
+      "patterns": [
+        "Where is your school located?",
+        "What is your school's address?",
+        "Can you tell me the location of the school?",
+        "Where can I find the school?",
+        "What’s the school’s address?",
+        "Where exactly is the school?",
+        "I need the school address",
+        "Where is Bagiya School?"
+      ],
+      "responses": [
+        "BB 88 Mayfield Garden Market, Between Hibiscus and Bani Square Sector 50, Gurugram",
+        "We are located at BB 88 Mayfield Garden Market, Between Hibiscus and Bani Square Sector 50, Gurugram, Haryana.",
+        "Our school’s address is BB 88 Mayfield Garden Market, Between Hibiscus and Bani Square Sector 50, Gurugram, Haryana.",
+        "You can find us at BB 88 Mayfield Garden Market, Between Hibiscus and Bani Square Sector 50, Gurugram, Haryana."
+      ]
+    },
+    {
+      "category": "school_information",
+      "tag": "school_hours",
+      "patterns": [
+        "What are the school hours?",
+        "When does school start and end?",
+        "What time does school open and close?",
+        "Tell me about the school schedule.",
+        "When is the school open?",
+        "What’s the timing of the school?",
+        "Can you share the school hours?",
+        "What are the school’s operating hours?"
+      ],
+      "responses": [
+        "Our school operates from 8 AM to 1 PM on weekdays.",
+        "School hours are from 8 AM to 1 PM, Monday through Saturday.",
+        "The school is open from 8 AM to 1 PM during weekdays."
+      ]
+    },
+    {
+      "category": "education",
+      "tag": "subjects",
+      "patterns": [
+        "What subjects are taught in your school?",
+        "Can you list the subjects?",
+        "Which subjects do students study?",
+        "What courses are available here?",
+        "Tell me the subjects offered",
+        "What classes do you teach?",
+        "Can you tell me about the subjects?",
+        "What are the subjects available?",
+        "What curriculum do you follow?"
+      ],
+      "responses": [
+        "Our school offers the following subjects:\n 1) Hindi\n 2) English\n 3) Mathematics\n 4) Science\n 5) Computer\n 6) Social Science",
+        "Here's the list of subjects:\n1. Hindi\n2. English\n3. Mathematics\n4. Science\n5. Computer\n6. Social Science."
+      ]
+    },
+    {
+      "category": "admission_information",
+      "tag": "admission_process",
+      "patterns": [
+        "What is the admission process?",
+        "How do I apply for admission?",
+        "Can you explain the steps for admission?",
+        "How can I get admitted to the school?",
+        "What are the requirements for admission?",
+        "Could you guide me on admission?",
+        "How does one apply for admission?",
+        "What’s involved in the admission process?"
+      ],
+      "responses": [
+        "The admission process includes:\n1. Filling out an application form.\n2. Submitting required documents.\n3. Attending a meeting with the Principal.\n4. Awaiting the admission decision.\n5. Completing the enrollment.",
+        "Here’s what you need to do:\n- Submit an application\n- Provide necessary documents\n- Attend a meeting with the Principal\n- Await the admission result\n- Finalize enrollment.",
+        "To apply, follow these steps:\n1. Complete an application form\n2. Submit your documents\n3. Meet with the Principal\n4. Wait for the decision\n5. Complete the enrollment if accepted."
+      ]
+    },
+    {
+      "category": "fees_information",
+      "tag": "fees_details",
+      "patterns": [
+        "Can you tell me about the fees?",
+        "What are the school fees?",
+        "How much is the tuition fee?",
+        "What is the fee structure?",
+        "Could you provide details on the fees?",
+        "How much does it cost to attend?",
+        "What's the cost of enrollment?",
+        "Are there any admission fees?",
+        "How much should I budget for fees?"
+      ],
+      "responses": [
+        "Our tuition fee is structured as follows:\n- Since it is an NGO school, only a one-time admission fee is required.\n- The one-time fee is Rs. 500 for both boys and girls.",
+        "We only require a one-time admission fee of Rs. 500 for boys and girls, as we are an NGO school.",
+        "The admission fee is Rs. 500. There are no ongoing tuition fees as we are an NGO school."
+      ]
+    },
+    {
+      "category": "fees_information",
+      "tag": "payment_methods",
+      "patterns": [
+        "How can I pay the fees?",
+        "What payment methods are accepted?",
+        "Can I pay online?",
+        "Is there an option to pay the fees digitally?",
+        "What are the available payment options?",
+        "How do I submit the payment?",
+        "What payment methods do you support?",
+        "Are digital payments accepted for fees?"
+      ],
+      "responses": [
+        "We accept multiple payment methods:\n- Online payment via credit or debit card\n- Bank transfer\n- Cash payment at the school office",
+        "You can pay the fees through online banking, credit/debit card, or directly at our office.",
+        "Fees can be paid via credit/debit card, bank transfer, or cash at the office."
+      ]
+    },
+    {
+      "category": "festival celebrations",
+      "tag": "festivals",
+      "patterns": [
+        "Do you celebrate festivals at school?",
+        "What festivals are celebrated here?",
+        "How are festivals celebrated at school?",
+        "Tell me about festival celebrations at school",
+        "Do you have any festival events?",
+        "What are some festivals celebrated at school?",
+        "Are there any special celebrations for festivals?",
+        "Do you organize any events for festivals?"
+      ],
+      "responses": [
+        "Yes, we celebrate many festivals at school with enthusiasm and joy! Some of the main ones include:\n- Diwali\n- Holi\n- EID\n- Christmas\n- Independence Day\n- Republic Day\n- Teachers' Day.",
+        "Our school celebrates various festivals such as Diwali, Holi, EID, Christmas, and others to foster cultural understanding and joy among students.",
+        "We organize special events for festivals like Diwali, EID, Christmas, and Holi, where students participate in cultural programs, art and craft activities, and more.",
+        "At Bagiya School, we celebrate important festivals including Diwali, Holi, EID, Independence Day, and Republic Day, with activities that encourage students to learn and have fun."
+      ]
+    },
+    {
+      "category": "personalized",
+      "tag": "personal_greeting",
+      "patterns": [
+        "Hi there!",
+        "Hello!",
+        "Hey bot!",
+        "Hi Qalbi!",
+        "Hey there, Qalbi",
+        "Hello Qalbi!",
+        "Good to see you, Qalbi"
+      ],
+      "responses": [
+        "Hello, <user_name>! How can I help you today?",
+        "Hey, <user_name>! What's on your mind?",
+        "Hi, <user_name>! I’m here to assist with anything you need."
+      ]
+    },
+    {
+      "category": "uncertain_responses",
+      "tag": "fallback",
+      "patterns": [
+        "I have a random question",
+        "I’m not sure what to ask",
+        "Can you help me with something?",
+        "This might sound odd, but...",
+        "I don’t really know what to ask",
+        "I need help but not sure how to ask",
+        "Can you assist me with something general?",
+        "I am a bit lost, can you guide me?"
+      ],
+      "responses": [
+        "I'm here to help! Feel free to ask anything specific, or let me know if you’d like more details about our school.",
+        "No worries! You can ask me about school hours, admission, or subjects taught here.",
+        "I'm here for any questions! Let me know if you'd like to learn about our curriculum, admission, or anything else."
+      ]
+    },
+    {
+      "category": "greeting",
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How's it going?",
+        "Hi there, are you there?",
+        "Hello bot, how are you doing?",
+        "Is anyone there?",
+        "Hey! How's everything?",
+        "How are you?",
+        "What's up?",
+        "Howdy",
+        "Greetings",
+        "Good to see you!"
+      ],
+      "responses": [
+        "Hey there! How can I assist you?",
+        "Hello! Thanks for reaching out. How can I help today?",
+        "Hi there! What can I do for you?",
+        "Hello! I'm here to help with any information you need.",
+        "Hi! What would you like to know today?"
+      ]
+    },
+    {
+      "category": "school_policies",
+      "tag": "discipline_policy",
+      "patterns": [
+        "What is the discipline policy?",
+        "How does the school handle behavior issues?",
+        "What are the rules for students?",
+        "Tell me about the code of conduct",
+        "How is discipline maintained?",
+        "What happens if a student breaks the rules?"
+      ],
+      "responses": [
+        "Our school follows a structured discipline policy to encourage positive behavior. Students are expected to adhere to a code of conduct, and any issues are addressed with counseling and appropriate action.",
+        "The school emphasizes respect, punctuality, and responsibility. Disciplinary actions may involve parent meetings and counseling sessions.",
+        "Behavioral issues are handled through discussions, counseling, and collaboration with parents to ensure students learn from their mistakes."
+      ]
+    },
+    {
+      "category": "school_academics",
+      "tag": "school_results",
+      "patterns": [
+        "How has the school performed in exams?",
+        "What are the results of the school?",
+        "Can you share the exam results?",
+        "Is the school ranked well?",
+        "How successful are students in exams?"
+      ],
+      "responses": [
+        "Our students consistently perform well in exams, with many achieving excellent results in both academics and extracurricular activities.",
+        "The school has a strong academic record, and our students have secured top positions in various examinations.",
+        "We take pride in our students' achievements, both in academics and in competitions, reflecting our commitment to quality education."
+      ]
+    },
+    {
+      "category": "special_programs",
+      "tag": "special_education",
+      "patterns": [
+        "Do you have programs for special needs students?",
+        "Is there support for gifted students?",
+        "Tell me about special education services",
+        "Are there programs for talented students?",
+        "Do you offer remedial classes?"
+      ],
+      "responses": [
+        "We offer support for students with special needs, including individualized learning plans and access to counselors.",
+        "Our school provides remedial classes and enrichment programs to cater to the diverse needs of students.",
+        "Gifted and talented students can participate in advanced learning programs, while those needing extra help receive tailored support."
+      ]
+    },
+    {
+      "category": "health_safety",
+      "tag": "health_protocols",
+      "patterns": [
+        "What are the health and safety measures?",
+        "Is there a nurse at the school?",
+        "How do you handle medical emergencies?",
+        "What are the COVID-19 protocols?",
+        "Are students required to be vaccinated?"
+      ],
+      "responses": [
+        "Our school follows strict health protocols, including regular sanitization, first aid facilities, and access to a nurse.",
+        "COVID-19 safety measures include mask mandates, temperature checks, and vaccination requirements as per guidelines.",
+        "Medical emergencies are handled promptly by trained staff, with parents informed immediately."
+      ]
+    },
+    {
+      "category": "parent_involvement",
+      "tag": "parent_volunteering",
+      "patterns": [
+        "Can parents volunteer at school?",
+        "How can parents get involved?",
+        "Are there opportunities for parents to participate?",
+        "What roles do parents have in school activities?",
+        "Can parents help with events?"
+      ],
+      "responses": [
+        "Parents are encouraged to volunteer and participate in school events and activities, fostering a collaborative environment.",
+        "We welcome parent involvement through volunteering opportunities in various school programs and events.",
+        "Parents can contribute by joining committees, assisting with events, and supporting classroom activities."
+      ]
+    },
+    {
+      "category": "cultural_activities",
+      "tag": "language_programs",
+      "patterns": [
+        "What languages are taught?",
+        "Do you have language programs?",
+        "Is there support for non-native speakers?",
+        "What are the language options?",
+        "Do you teach any foreign languages?"
+      ],
+      "responses": [
+        "We offer language programs including English, Hindi, and other regional languages, with support for non-native speakers.",
+        "Our language curriculum focuses on developing proficiency in both English and Hindi, with additional support as needed.",
+        "Students can enhance their language skills through interactive sessions and language labs."
+      ]
+    },
+    {
+  "category": "uniform_information",
+      "tag": "school_uniform",
+      "patterns": [
+        "What is the school uniform?",
+        "Do students have to wear uniforms?",
+        "Can you share details about the dress code?",
+        "Where can I buy the school uniform?",
+        "Is there a specific dress code?",
+        "Tell me about the school dress",
+        "Do students have different uniforms for sports?"
+      ],
+      "responses": [
+        "Yes, students are required to wear uniforms, which can be purchased from our authorized vendor.",
+        "The uniform includes a formal dress for weekdays and a sports dress for activity days.",
+        "Please contact the school office for more information on where to purchase the uniform."
+      ]
+    },
+    {
+      "category": "activities_information",
+      "tag": "extracurricular_activities",
+      "patterns": [
+        "What extracurricular activities are offered?",
+        "Are there any clubs or societies?",
+        "Do you have sports programs?",
+        "What kind of cultural activities do you have?",
+        "What sports do you offer?",
+        "Tell me about clubs at the school",
+        "Do students participate in cultural events?"
+      ],
+      "responses": [
+        "We offer a range of extracurricular activities, including sports, art, music, dance, and theater.",
+        "Students can join clubs such as debate, science, art, and drama.",
+        "Our sports programs include football, basketball, athletics, and more.",
+        "We also organize cultural events and competitions to encourage student participation."
+      ]
+    }
+  ]
+}
